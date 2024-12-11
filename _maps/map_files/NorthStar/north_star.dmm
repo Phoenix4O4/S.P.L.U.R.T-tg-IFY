@@ -4631,6 +4631,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/floor3/fore)
+"bhS" = (
+/obj/machinery/vending/boozeomat,
+/turf/open/floor/wood/tile,
+/area/station/command/heads_quarters/captain/private)
 "bhW" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -52886,11 +52890,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit)
-"nDj" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/vending/boozeomat,
-/turf/open/floor/plating,
-/area/station/medical/abandoned)
 "nDk" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -55521,10 +55520,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/light,
 /area/station/maintenance/floor2/port/fore)
-"omh" = (
-/obj/machinery/vending/boozeomat,
-/turf/open/floor/wood/tile,
-/area/station/command/heads_quarters/captain/private)
 "omj" = (
 /obj/effect/turf_decal/tile/green/half{
 	dir = 8
@@ -67718,11 +67713,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/light,
 /area/station/maintenance/floor1/starboard/fore)
-"rtH" = (
-/obj/machinery/vending/boozeomat,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/station/service/abandoned_gambling_den)
 "rtL" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -76997,6 +76987,11 @@
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating,
 /area/station/maintenance/disposal/incinerator)
+"tRb" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/vending/boozeomat,
+/turf/open/floor/plating,
+/area/station/medical/abandoned)
 "tRh" = (
 /obj/structure/railing{
 	dir = 1
@@ -90406,6 +90401,11 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/carpet/red,
 /area/station/service/theater)
+"xkD" = (
+/obj/machinery/vending/boozeomat,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/station/service/abandoned_gambling_den)
 "xkN" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/item/hatchet,
@@ -257382,7 +257382,7 @@ iuo
 fhl
 ebG
 iuo
-nDj
+tRb
 nfw
 uZc
 vMh
@@ -269988,7 +269988,7 @@ tgA
 cFK
 gaT
 vuI
-rtH
+xkD
 pen
 pen
 ucA
@@ -312355,7 +312355,7 @@ lJp
 aNs
 glw
 aNs
-omh
+bhS
 per
 uTG
 oKq

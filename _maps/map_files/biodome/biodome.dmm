@@ -22420,13 +22420,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/storage)
-"hNl" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/stone,
-/area/station/biodome/aft)
 "hNy" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
@@ -32054,6 +32047,13 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
+"ldK" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/stone,
+/area/station/biodome/aft)
 "ldP" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -107690,8 +107690,8 @@ ota
 ota
 mBX
 enR
-hNl
-hNl
+ldK
+ldK
 xFA
 xFA
 xFA

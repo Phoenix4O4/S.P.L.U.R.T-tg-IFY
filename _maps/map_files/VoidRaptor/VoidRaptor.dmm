@@ -2261,6 +2261,23 @@
 /obj/machinery/status_display/evac,
 /turf/closed/wall/r_wall,
 /area/station/command/heads_quarters/qm)
+"aHs" = (
+/obj/structure/table,
+/obj/item/plate/large,
+/obj/item/plate,
+/obj/item/plate/small{
+	pixel_y = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/east,
+/obj/item/reagent_containers/condiment/enzyme{
+	pixel_x = 10;
+	pixel_y = 18
+	},
+/obj/item/knife/butcher{
+	pixel_x = 5
+	},
+/turf/open/floor/iron/kitchen,
+/area/station/service/kitchen)
 "aHV" = (
 /obj/structure/cable,
 /obj/machinery/computer/warrant,
@@ -5545,6 +5562,23 @@
 /obj/structure/cable,
 /turf/open/floor/iron/smooth_large,
 /area/station/hallway/primary/aft)
+"bEK" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/security/glass{
+	id_tag = "outerbrig";
+	name = "Brig"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/entrance,
+/obj/structure/disposalpipe/segment,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "brig-entrance-aft"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/brig)
 "bES" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/holopad/secure,
@@ -16925,28 +16959,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/maintenance/department/engine)
-"eUq" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Central Hallway"
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/firedoor,
-/obj/structure/disposalpipe/segment,
-/obj/structure/sign/directions/command/directional/east{
-	dir = 1;
-	pixel_y = 8
-	},
-/obj/structure/sign/directions/security/directional/east{
-	dir = 1
-	},
-/obj/structure/sign/directions/evac/directional/east{
-	pixel_y = -8;
-	dir = 1
-	},
-/turf/open/floor/iron/smooth_large,
-/area/station/hallway/primary/aft)
 "eUu" = (
 /obj/docking_port/stationary/public_mining_dock{
 	dir = 2
@@ -19917,6 +19929,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/pod/dark,
 /area/station/service/chapel/office)
+"fQD" = (
+/obj/structure/table,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/kitchen,
+/area/station/service/kitchen)
 "fQH" = (
 /obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/plating/foam{
@@ -33078,6 +33095,27 @@
 /obj/effect/landmark/navigate_destination/vault,
 /turf/open/floor/engine,
 /area/station/ai_monitored/command/nuke_storage)
+"jxP" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/security/glass{
+	id_tag = "outerbrig";
+	name = "Brig"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/entrance,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "brig-entrance-aft"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/landmark/navigate_destination/sec,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/brig)
 "jya" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
@@ -54121,28 +54159,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/smooth,
 /area/station/command/cc_dock)
-"pfE" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/security/glass{
-	id_tag = "outerbrig";
-	name = "Brig"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/security/entrance,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = "brig-entrance-aft"
-	},
-/obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/landmark/navigate_destination/sec,
-/obj/machinery/scanner_gate/preset_guns,
-/turf/open/floor/iron/dark/smooth_large,
-/area/station/security/brig)
 "pfJ" = (
 /obj/structure/rack,
 /obj/item/book/manual/wiki/engineering_hacking{
@@ -60538,11 +60554,6 @@
 	dir = 8
 	},
 /area/station/commons/fitness/recreation)
-"qSs" = (
-/obj/structure/extinguisher_cabinet/directional/east,
-/obj/machinery/smartfridge/drying,
-/turf/open/floor/iron/kitchen,
-/area/station/service/kitchen)
 "qSu" = (
 /turf/open/floor/iron/large,
 /area/station/hallway/primary/fore)
@@ -70506,23 +70517,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/atmos)
-"tDA" = (
-/obj/structure/table,
-/obj/machinery/light/directional/north,
-/obj/item/plate/large,
-/obj/item/plate,
-/obj/item/plate/small{
-	pixel_y = 1
-	},
-/obj/item/knife/butcher{
-	pixel_x = 5
-	},
-/obj/item/reagent_containers/condiment/enzyme{
-	pixel_x = 10;
-	pixel_y = 18
-	},
-/turf/open/floor/iron/kitchen,
-/area/station/service/kitchen)
 "tDI" = (
 /obj/machinery/portable_atmospherics/canister,
 /obj/effect/turf_decal/box,
@@ -72053,24 +72047,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/maintenance/department/science/xenobiology)
-"ubW" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/security/glass{
-	id_tag = "outerbrig";
-	name = "Brig"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/security/entrance,
-/obj/structure/disposalpipe/segment,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = "brig-entrance-aft"
-	},
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/scanner_gate/preset_guns,
-/turf/open/floor/iron/dark/smooth_large,
-/area/station/security/brig)
 "ubZ" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /obj/effect/turf_decal/trimline/blue/filled/line,
@@ -74845,6 +74821,28 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/large,
 /area/station/hallway/primary/fore)
+"uMC" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Central Hallway"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment,
+/obj/structure/sign/directions/command/directional/east{
+	dir = 1;
+	pixel_y = 8
+	},
+/obj/structure/sign/directions/security/directional/east{
+	dir = 1
+	},
+/obj/structure/sign/directions/evac/directional/east{
+	pixel_y = -8;
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/station/hallway/primary/aft)
 "uMK" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Port Quarter Solar Access"
@@ -120970,7 +120968,7 @@ cgf
 ijw
 gba
 laa
-eUq
+uMC
 huc
 uyJ
 ouI
@@ -123473,7 +123471,7 @@ hRr
 fba
 cUM
 lQG
-tDA
+fQD
 orv
 xFd
 nRS
@@ -123988,7 +123986,7 @@ hUS
 eGd
 bnA
 xYN
-qSs
+aHs
 bLx
 ehn
 hIw
@@ -125267,7 +125265,7 @@ uuD
 rOa
 ddj
 ful
-ubW
+bEK
 lzd
 uKh
 njl
@@ -125524,7 +125522,7 @@ utC
 qyg
 mzk
 uDY
-pfE
+jxP
 isB
 eGb
 yfl

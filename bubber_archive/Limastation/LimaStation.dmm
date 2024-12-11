@@ -7069,10 +7069,6 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
-"cUn" = (
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/station/maintenance/port/lower)
 "cUp" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/effect/turf_decal/tile/blue/opposingcorners{
@@ -86449,7 +86445,7 @@ fDp
 vCU
 iIH
 nkM
-cUn
+tGt
 hzu
 bep
 daQ
